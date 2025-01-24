@@ -49,13 +49,14 @@ cp .env.example .env
 ```
 
 6. Настройте подключение к базе данных в файле `.env`:
-
+```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=url_shortener
 DB_USERNAME= 
 DB_PASSWORD=
+```
 
 Замените значения `DB_USERNAME` и `DB_PASSWORD` на соответствующие вашей базе данных MySQL.
 
