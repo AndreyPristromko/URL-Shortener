@@ -21,8 +21,7 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/your-username/url-shortener.git
-cd url-shortener
+git clone https://github.com/AndreyPristromko/URL-Shortener.git
 ```
 
 2. Перейдите в директорию проекта:
@@ -54,7 +53,7 @@ cp .env.example .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=
+DB_DATABASE=url_shortener
 DB_USERNAME= 
 DB_PASSWORD=
 
