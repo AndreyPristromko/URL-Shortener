@@ -50,7 +50,7 @@ cp .env.example .env
 
 6. Настройте подключение к базе данных в файле `.env`:
 
-DB_CONNECTION=mysql
+DB_CONNECTION=mysql "\n"
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=url_shortener
